@@ -1,11 +1,11 @@
 // ★プレビュー画面で動作確認をする場合
 navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
-// // ★端末（デバッガー）で動作確認をする場合
-// document.addEventListener("deviceready", onDeviceReady, false);
-// function onDeviceReady() {
-//     navigator.geolocation.getCurrentPosition(onSuccess, onError);
-// }
+//★端末（デバッガー）で動作確認をする場合
+ document.addEventListener("deviceready", onDeviceReady, false);
+ function onDeviceReady() {
+     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+ }
 
 var currentGeo = [];
 

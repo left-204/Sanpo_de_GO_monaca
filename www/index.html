@@ -7,14 +7,37 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-    <script src="js/map.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/map.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 <body>
-    <div id ="map" style="height: 500px;">
-
+    <div class="header">
+        <p class="text_home">マップ</p>
+        <div class="header_flex"><img class="human" src ="image/human.png"></div>
+    </div>
+    <div class ="map_space">
+    <div id="map" class="map"></div>
+    </div>
+    <div class="footer">
+        <div class="footer_block_left">
+            <a href ="home.html" class ="footer_button"><img class="icon" src ="image/home.png"><p>ホーム</p></a>
+        </div>
+        <div class="footer_block">
+            <a href ="camera.html" class ="footer_button"><img class="icon" src ="image/camera.png"><p>カメラ</p></a>
+        </div>
+        <div class="footer_block">
+            <a href ="meas.html" class ="footer_button"><img class="icon" src ="image/flag.png"><p>計測</p></a>
+        </div>
+        <div class="footer_block">
+            <a href ="index.html" class ="footer_button"><img class="icon" src ="image/map.png"><p>マップ</p></a>
+        </div>
+        <div class="footer_block">
+            <a href ="record.html" class ="footer_button"><img class="icon" src ="image/calendar.png"><p>記録</p></a>
+        </div>
     </div>
 </body>
 </html>
