@@ -24,13 +24,13 @@ function makeMap() {
         iconSize: [32, 32],
         iconAnchor: [16, 16]
     });
-
+/*
     var crossMarker = L.marker( map.getCenter(),{
         icon:crossIcon,  
         zIndexOffset: 1000,
         interactive: false
     }).addTo(map);
-
+*/
     map.on("move", function(e) {
         crossMarker.setLatLng(map.getCenter());
     });
