@@ -1,8 +1,8 @@
 
 //APIキーの設定
 /*
-let applicationKey ="40a02906910cd5b4d5bd87115f778b6db6b4c5bd096e6754885d54e1c468975a";
-let clientKey ="0677328ab255d58390710d47771195e531a67aaba111c13d6918e8cb8e3d1499"
+let applicationKey ="922b164f1eb91351e2fa537491b1dd87df103bd8a2a1517856f85f6628099d53";
+let clientKey ="81698572792fecb7ca1675e049cb4d090d325a0088a59789b6eba0597a7f9c8d"
 
 let ncmb = new NCMB(applicationKey,clientKey);
 
